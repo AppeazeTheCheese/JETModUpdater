@@ -33,7 +33,7 @@ Mods configured to auto update using this program will have at least the followi
 
 To configure your mod for automatic updates, you will need to add a couple things to your mod.
 
-First thing's first, let's create a file named "updater.json" and place it inside your mod folder. Inside of this file, we need to put some parameters that will give the program information that is important for determining if the mod is up to date and where to download the update if it's not.
+First thing's first, let's create a file named "updater.json" and place it inside your mod folder. Inside of this file, we need to put some parameters that will give the program information that is important for determining if the mod is up to date and where to download the update if it's not. This file is not needed on the client, so it may be separate from the mod or added to the "excludeFromUpdate" property if desired.
 
 ```
 {
@@ -57,7 +57,7 @@ First thing's first, let's create a file named "updater.json" and place it insid
 
 **downloadUpdateUrl:** Direct download link to the zip file containing the updated version of the mod. The structure of the zip file does not matter, as long as there is only one mod.config.json file and all files required by the mod are either in the same folder as the mod.config.json file or in a deeper subfolder.
 
-**excludeFromUpdate:** This is a list of files to exclude when updating. Each of the specified paths are appended to the root folder of your mod, which is where your mod.config.json is stored. For example, if I have a folder named Config in my mod folder that contains a file named settings.json that I do not want to overwrite during the update process, I can add "Config/settings.json" as an entry to "excludeFromUpdate".
+**excludeFromUpdate:** This is a list of files to exclude when updating. Each of the specified paths are appended to the root folder of your mod, which is where your mod.config.json is stored. For example, if I have a folder named Config in my mod folder that contains a file named settings.json that I do not want to overwrite during the update process, I can add "Config/settings.json" as an entry to "excludeFromUpdate". You can exclude both files and entire folders.
 
 
 
@@ -72,6 +72,7 @@ After you've done that, it's time to add the following lines to your mod.config.
 
 **checkUpdateUrl:** The URL to the raw "updater.json" file you just created. This URL should always stay the same. It is crucial that this link is accurate for the program to work. If you are hosting your mod on GitHub, you will need to go to the file and click the "raw" button in order to get a working link.
 
+For debugging purposes I have added a "-debug" argument that pauses the program right before starting the JET server to make it easier to read the output. To use this feature, either open a command prompt or PowerShell window in the same directory as your "Launcher.exe" folder and type the command "launcher.exe -debug", or create a batch (.bat) file in same directory and paste the same command into the file.
 
 Note: Although it is recommended for these 2 files to be separate, all of the options can be in the mod.config.json as long as "checkUpdateUrl" is pointed to it, and "downloadUpdateUrl" is accurate.
 
