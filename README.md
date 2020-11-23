@@ -3,10 +3,10 @@
 [Jump to download link](#Download)
 
 # Functionality:
-*Configurable update settings per-mod.
-*Easy to understand configuration.
-*Logs errors and warnings to the console for update debugging.
-*Clears the cache before starting the JET server.
+* Configurable update settings per-mod.
+* Easy to understand configuration.
+* Logs errors and warnings to the console for update debugging.
+* Clears the cache before starting the JET server.
 
 
 # Installation:
