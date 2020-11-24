@@ -79,7 +79,7 @@ Note: Although it is recommended for these 2 files to be separate, all of the op
 For support, join the [ConfigFreaks Discord server](https://discord.gg/5jf5aaB).
 
 # Download
-Latest Update (1.0, initial release)
+[Latest Update (1.0, initial release)](https://github.com/AppeazeTheCheese/JETModUpdater/releases/download/1.0.0/Launcher.exe)
 
 Patch Notes:
 * Initial release
