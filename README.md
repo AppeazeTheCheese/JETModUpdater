@@ -7,6 +7,8 @@
 * Easy to understand configuration.
 * Logs errors and warnings to the console for update debugging.
 * Clears the cache before starting the JET server.
+* Program updates itself automatically.
+	* In the event of a broken update, can be ran with the "-noupdate" parameter to disable update checking.
 
 
 # Installation:
