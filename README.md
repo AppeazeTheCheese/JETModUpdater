@@ -49,11 +49,11 @@ First thing's first, let's create a file named "updater.json" and place it insid
 	]
 }
 ```
-**name:** The name of your mod. This must be the same name that is specified in your mod.config.json
+**name:** The name of your mod. This ***must*** be the same name that is specified in your mod.config.json
 
-**author:** Your author name. This must be the same author that is specified in your mod.config.json
+**author:** Your author name. This ***must*** be the same author that is specified in your mod.config.json
 
-**version:** The current version of the mod. This is what the program checks to determine if the mod needs updated. The version can not contain any letters or symbols. This parameter can be anywhere from 1 to 4 numbers separated by a period. Each number can be any positive value under 214483647.
+**version:** The current version of the mod. This is what the program checks to determine if the mod needs updated. The version **can not** contain any letters or symbols (excluding the period). This parameter can be anywhere from 1 to 4 numbers separated by a period. Each number can be any positive value under 214483647.
 
 **forceDowngrade:** If set to true, the program will download the version specified in this file even if it's lower than the installed version. If the version specified in this file is the same as the installed version, the program will not download the file.
 
