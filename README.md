@@ -15,7 +15,7 @@
 1. Download the latest version using the link at the bottom of this post.
 2. Place the exe file in your JET server folder (the same location as the Server.exe file).
 3. Run Launcher.exe and watch the magic happen!
-	*A window may pop up titled "Windows protected your PC". This is because the program isn't signed (a code-signing certificate costs roughly $250 - $500 per year). Simply click the "More Info" button just below the text in the window, then click the "Run Anyway" button that appears in the bottom right of the window. It should only do this once.
+	* A window may pop up titled "Windows protected your PC". This is because the program isn't signed (a code-signing certificate costs roughly $250 - $500 per year). Simply click the "More Info" button just below the text in the window, then click the "Run Anyway" button that appears in the bottom right of the window. It should only do this once.
 
 
 # Configuration:
