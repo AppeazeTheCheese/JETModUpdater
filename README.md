@@ -1,6 +1,6 @@
 # JETModUpdater
 
-<b>Note:</b> this repo is for the auto updating of the launcher only. For the source code visit https://github.com/AppeazeTheCheese/JETModUpdater
+<b>Note:</b> this repo is for the auto updating of the launcher only. For the source code visit https://github.com/AppeazeTheCheese/JETModUpdaterSrc
 
 [Jump to download link](#Download)
 
